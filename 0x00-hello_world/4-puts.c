@@ -1,15 +1,14 @@
 #include <stdio.h>
 
-/***
+/**
  * main - Entry point
  *
- * Return:Always 0(success)
- *
- * This is the Betty coding style. I wonder who Betty is though. I would Definetely date her.
- *
+ * Return: Always 0 (Success)
  */
-int main(void){
-  char message[] = "\"Programming is like building a multilingual puzzle";
-  puts(message);
-  return 0;
+int main(void)
+{
+	char message[] = "\"Programming is like building a multilingual puzzle";
+
+	puts(message);
+	return (0);
 }
