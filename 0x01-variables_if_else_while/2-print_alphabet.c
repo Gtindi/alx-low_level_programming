@@ -14,8 +14,9 @@ char ch = 'a';
 
 while (ch <= 'z')
 {
-putchar("%c\n", ch);
-ch++
+putchar(ch++);
+
 }
+putchar("\n");
 return (0);
 }
