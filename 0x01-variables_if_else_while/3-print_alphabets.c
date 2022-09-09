@@ -10,8 +10,8 @@
  */
 int main(void)
 {
-char lc = "a" 
-char uc = "A" 
+char lc = 'a'
+char uc = 'A'
 int len_lc = lc + 26;
 int len_uc = uc + 26;
 
