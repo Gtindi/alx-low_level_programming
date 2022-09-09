@@ -10,17 +10,12 @@
  */
 int main(void)
 {
-char character;
 char ch = 'a';
 int len = ch + 26;
 
 while (ch < len)
 {
-character = ch++;
-gets(s);
-strrev(s);
-putchar(character, s);
-
+putchar(ch--)
 }
 putchar('\n');
 return (0);
