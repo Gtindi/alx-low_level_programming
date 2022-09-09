@@ -15,7 +15,7 @@ int len = ch + 26;
 
 while (ch < len)
 {
-if (c == 'q' || c == 'e')
+if (ch == 'q' || ch == 'e')
 {
 ++c;
 continue;
