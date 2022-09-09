@@ -17,7 +17,7 @@ while (ch < len)
 {
 if (ch == 'q' || ch == 'e')
 {
-++c;
+++ch;
 continue;
 }
 putchar(ch++);
