@@ -11,7 +11,6 @@
 int main(void)
 {
 char ch = 'z';
-int len = ch + 26;
 
 while (ch >= 'a')
 {
