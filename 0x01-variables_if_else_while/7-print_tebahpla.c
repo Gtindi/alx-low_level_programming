@@ -10,10 +10,10 @@
  */
 int main(void)
 {
-char ch = 'a';
+char ch = 'z';
 int len = ch + 26;
 
-while (ch < len)
+while (ch >= 'a')
 {
 putchar(ch--);
 }
