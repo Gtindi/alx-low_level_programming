@@ -15,7 +15,7 @@ int len = ch + 26;
 
 while (ch < len)
 {
-putchar(ch--)
+putchar(ch--);
 }
 putchar('\n');
 return (0);
