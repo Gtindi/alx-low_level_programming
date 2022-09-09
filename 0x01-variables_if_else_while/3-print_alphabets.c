@@ -15,11 +15,11 @@ char uc = 'A'
 int len_lc = lc + 26;
 int len_uc = uc + 26;
 
-while (lc < len)
+while (lc < len_lc)
 {
 putchar(lc++);
 }
-while (uc < len)
+while (uc < len_uc)
 {
 putchar(uc++);
 }
