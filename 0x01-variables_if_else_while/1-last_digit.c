@@ -11,6 +11,7 @@
 int main(void)
 {
 int n;
+int l; /** This is the last digit**/
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
