@@ -11,8 +11,9 @@
 int main(void)
 {
 char ch = 'a';
+int len = ch + 26;
 
-while (ch <= 'z')
+while (ch < len)
 {
 putchar(ch++);
 
