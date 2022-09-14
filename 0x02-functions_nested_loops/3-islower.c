@@ -14,5 +14,5 @@ if (c >= start && c < max)
 {
 result = 1;
 }
-return(result);
+return (result);
 }
