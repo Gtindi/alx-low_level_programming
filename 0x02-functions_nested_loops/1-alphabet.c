@@ -2,7 +2,7 @@
 /* more headers goes there */
 
 /**
- * main - Entry point
+ *print_alphabet - prints alphabet in lowercase to stdout
  *
  * Return: Always 0
  */
