@@ -13,7 +13,7 @@ int end = 97 + 26;
 
 while (start < end)
 {
-_putchar(alpha++);
+_putchar(start++);
 }
 _putchar('\n');
 
