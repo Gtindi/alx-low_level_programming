@@ -10,7 +10,7 @@ int result = 0;
 int start = 97;
 int max = start + 26;
 
-if (c >= alpha && c < max)
+if (c >= start && c < max)
 {
 result = 1;
 }
