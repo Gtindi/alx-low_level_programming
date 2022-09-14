@@ -8,10 +8,10 @@
  */
 void print_alphabet(void)
 {
-int alpha = 97;
-int max = 97 + 26;
+int start = 97;
+int end = 97 + 26;
 
-while (alpha < max)
+while (start < end)
 {
 _putchar(alpha++);
 }
