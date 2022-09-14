@@ -4,7 +4,7 @@
 /**
  *print_alphabet - prints alphabet in lowercase to stdout
  *
- * Return: Always 0
+ * Return: void
  */
 int main(void)
 {
@@ -16,5 +16,4 @@ while (alpha < max)
 _putchar(alpha++);
 }
 _putchar('\n');
-return (0);
 }
