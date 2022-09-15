@@ -7,23 +7,27 @@
 
 int main(void)
 {
-	long number = 612852475143;
-	int inc;
+	long n = 612852475143;
+	long divisor, largest;
 
-	while (inc++ < number / 2)
+	divisor = 2;
+
+	while (n != 0)
 	{
-		if (number % inc == 0)
+		if (n % divisor != 0)
 		{
-			number /= 2;
-			continue;
+			++divisor;
 		}
-
-		for (inc = 3; inc < number / 2; inc += 2)
+		else
 		{
-			if (number % inc == 0)
-				number /= inc;
+			largest = n;
+			n = n / divisor;
+
+			if (n == 1)
+				break;
 		}
 	}
-	printf("%d\n", number);
+
+	printf("%ld\n", largest);
 	return (0);
 }
