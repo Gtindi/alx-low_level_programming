@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main- prints largest prime factor
  * Return: returns 0
