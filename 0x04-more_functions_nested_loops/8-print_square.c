@@ -1,10 +1,10 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * print_square - Prints a square
- * @size: The size of the square
- *
- * Return: void
+ * print_square- prints squares
+ * @size: parameter
+ * Return: returns nothing
  */
 
 void print_square(int size)
