@@ -4,6 +4,7 @@
  *
  * Return: Length of s
  */
+
 int _strlen(char *s)
 {
 long int len = 0;
