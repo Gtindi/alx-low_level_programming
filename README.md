@@ -7,3 +7,4 @@ This repository contains programs written for the low-level programming and algo
 <h3>3. <a href = "https://github.com/Gtindi/alx-low_level_programming/tree/main/0x02-functions_nested_loops"> 0x03-debugging </a></h3>
 <h3>4. <a href = "https://github.com/Gtindi/alx-low_level_programming/tree/main/0x04-more_functions_nested_loops"> 0x04-more_functions_nested_loops </a></h3>
 <h3>5. <a href = "https://github.com/Gtindi/alx-low_level_programming/tree/main/0x05-pointers_arrays_strings"> 0x05-pointers_arrays_strings </a></h3>
+<h3>6. <a href = "https://github.com/Gtindi/alx-low_level_programming/tree/main/0x06-pointers_arrays_strings"> 0x06-more_pointers_arrays_strings </a></h3>
