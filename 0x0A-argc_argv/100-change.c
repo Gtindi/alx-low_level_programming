@@ -55,3 +55,4 @@ int change(int cents)
 	}
 
 	return (amount);
+}
