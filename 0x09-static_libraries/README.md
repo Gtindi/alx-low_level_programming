@@ -1,1 +1,1 @@
-<h1> Static Library </h1>
+This project is about C - Static libraries
