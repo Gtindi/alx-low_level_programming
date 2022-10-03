@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include <stdio.h>
 #include <stdlib.h>
 /**
  * create_array - creates an array of chars.
@@ -7,6 +7,7 @@
  *
  * Return: pointer of an array of chars
  */
+
 char *create_array(unsigned int size, char c)
 {
 	char *cr;
