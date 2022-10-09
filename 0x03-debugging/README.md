@@ -1,2 +1,7 @@
 <a href = "https://github.com/Gtindi/alx-low_level_programming">Back</a>
 <h1> Debugging </h1>
+<p>Debugging is the process of finding and fixing errors in software that prevents it from running correctly. As you become a more advanced programmer and an industry engineer, you will learn how to use debugging tools such as gdb or built-in tools that IDEs have. However, it’s important to understand the concepts and processes of debugging manually.</p>
+
+| TaskNo | Name | Explanation | View Code |
+|--------|--------|---------|-------------|
+| 0 | Multiple mains | <p> Based on the `main.c` file above, create a file named `0-main.c`. This file must test that the function `positive_or_negative()` gives the correct output when given a case of `0`.</p> <p> You are not coding the solution / function, you’re just testing it! However, you can adapt your function from <a href = "https://alx-intranet.hbtn.io/tasks/831">0x01. C - Variables, if, else, while - Task #0</a> to compile with this main file to test locally.</p> <ul><li>You only need to upload `0-main.c` and `main.h` for this task. We will provide our own `positive_or_negative()` function.</li><li> You are not allowed to add or remove lines of code, you may change only <b>one</b> line in this task.</li></ul> | <ol><li><a href = "https://github.com/Gtindi/alx-low_level_programming/blob/main/0x03-debugging/0-main.c"> 0-main.c </a></li><li> <a href = "https://github.com/Gtindi/alx-low_level_programming/blob/main/0x03-debugging/main.h"> main.h </a> </li></ol> |
