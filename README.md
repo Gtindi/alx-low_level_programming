@@ -8,6 +8,7 @@
 <li> <a href = "https://github.com/Gtindi/alx-low_level_programming/tree/main/0x03-debugging"> Debugging </a> </li>
 <li> <a href = "https://github.com/Gtindi/alx-low_level_programming/tree/main/0x04-more_functions_nested_loops"> More functions nested loops </a> </li>
 <li> <a href = "https://github.com/Gtindi/alx-low_level_programming/tree/test/0x05-pointers_arrays_strings"> Pointers, Arrays & Strings </a> </li>
+<li> <a href = "https://github.com/Gtindi/alx-low_level_programming/tree/test/0x06-pointers_arrays_strings"> More Pointers, Arrays & Strings </a> </li>
 <li> <a href = "https://github.com/Gtindi/alx-low_level_programming/tree/test/0x07-pointers_arrays_strings"> Even more Pointers, Arrays & Strings </a> </li>
 <li> <a href = "https://github.com/Gtindi/alx-low_level_programming/tree/test/0x08-recursion"> Recursion  </a> </li>
 <li> <a href = "https://github.com/Gtindi/alx-low_level_programming/tree/test/0x09-static_libraries"> Static Libraries </a> </li>
