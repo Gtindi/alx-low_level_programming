@@ -1,3 +1,4 @@
+<a href = "https://github.com/Gtindi/alx-low_level_programming">Back</a>
 <h1> Pointers arrays strings </h1>
 
 | TaskNo | Title | Explanation | Solution |
