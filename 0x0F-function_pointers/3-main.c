@@ -1,19 +1,16 @@
 #include "3-calc.h"
 
 /**
- * main - This program calculates two numbers based on given
- * operator
+ * main - check the code for Holberton School students.
+ * @argc: argument count.
+ * @argv: argument vector.
  *
- * @argc: Argument count
- * @argv: Argument list
- *
- * Return: int
+ * Return: Always 0.
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-	int n1, n2, ans;
-	char *op;
-	int (*op_func)(int, int);
+	int a, b;
+	int (*operation)(int, int);
 
 	if (argc != 4)
 	{
@@ -21,23 +18,23 @@ int main(int argc, char **argv)
 		exit(98);
 	}
 
-	op = argv[2];
-	n1 = atoi(argv[1]);
-	n2 = atoi(argv[3]);
-	op_func = get_op_func(op);
-
-	if (op_func == NULL)
+	if (argv[2][1])
 	{
 		printf("Error\n");
 		exit(99);
 	}
 
-	if ((op[0] == '/' || op[0] == '%') && n2 == 0)
+	operation = get_op_func(argv[2]);
+
+	if (operation == NULL)
 	{
 		printf("Error\n");
-		exit(100);
+		exit(99);
 	}
-	ans = op_func(n1, n2);
-	printf("%d\n", ans);
+
+	a = atoi(argv[1]);
+	b = atoi(argv[3]);
+
+	printf("%d\n", operation(a, b));
 	return (0);
 }
