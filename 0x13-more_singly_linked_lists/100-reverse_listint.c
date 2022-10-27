@@ -1,36 +1,29 @@
 #include "lists.h"
 
 /**
- * delete_nodeint_at_index - deletes the node at index index of
- * a listint_t linked list.
+ * reverse_listint - reverses a listint_t linked list.
  * @head: The head of the list
- * @index: The index of the node to be deleted
  *
- * Return: (int) 1 on success, -1 otherwise
+ * Return: (pointer) The reversed head
  */
-int delete_nodeint_at_index(listint_t **head, unsigned int index)
+listint_t *reverse_listint(listint_t **head)
 {
-	listint_t *node;
+	listint_t *node = NULL;
 	listint_t *prev = NULL;
-	int deleted = -1;
-	unsigned int i;
 
-	node = *head;
-	for (i = 0; node != NULL; i++)
+	if (*head != NULL)
 	{
-		if (i == index)
+		node = *head;
+		while (node != NULL)
 		{
-			if (prev != NULL)
-				prev->next = node->next;
-			else
-				*head = node->next;
-			free(node);
-			deleted = 1;
-			break;
+			*head = node->next;
+			node->next = prev;
+			prev = node;
+			node = *head;
 		}
-
-		prev = node;
-		node = node->next;
+		node = prev;
+		*head = node;
 	}
-	return (deleted);
+
+	return (node);
 }
